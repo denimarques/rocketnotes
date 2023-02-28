@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        @apply bg-background_800 text-white_util;
+    }
+
+    header{
+        @apply border-b border-b-background_700;
+    }
+
+    main{
+        @apply py-16;
+    }
+
+    body, input, button, textarea{
+        @apply font-Slab antialiased ;
+    }
+
+    cursor{
+        @apply cursor-pointer;
+    }
+
+    button, a{
+        @apply hover:brightness-90
+    }
+
+}
