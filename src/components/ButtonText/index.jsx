@@ -1,7 +1,7 @@
 import { Content } from "./style.js";
 
-export default function ButtonText({title, ...rest}) {
+export default function ButtonText({title, isActive=false, ...rest}) {
     return (
-        <Content type="button" {...rest}>{title}</Content>
+        <Content type="button" isActive={isActive} {...rest}>{title}</Content>
     );
 };

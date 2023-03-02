@@ -1,5 +1,7 @@
-import tw from "tailwind-styled-components"
+import tw from "twin.macro";
+import styled from "styled-components";
 
-export const Content = tw.button`
-    text-orange_util self-end
+export const Content = styled.button`
+    ${tw`self-end`};
+    ${({isActive}) => isActive ? tw`text-orange_util` : tw`text-gray_100_util` };
 `;
