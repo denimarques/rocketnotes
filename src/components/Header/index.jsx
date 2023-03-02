@@ -1,7 +1,7 @@
 import {Content, Logout, Profile} from "./style.js";
 import { RiShutDownLine } from "react-icons/ri"
 
-function Header(){
+export default function Header(){
     return(
         <Content>
             <Profile>
@@ -20,4 +20,3 @@ function Header(){
     )
 }
 
-export default Header;

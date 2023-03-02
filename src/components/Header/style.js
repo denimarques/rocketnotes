@@ -1,8 +1,9 @@
-import tw from "tailwind-styled-components"
+import tw from "twin.macro"
 
 export const Content = tw.div`
     container
     mx-auto
+    px-10
     h-28
     w-full
     flex
