@@ -7,10 +7,6 @@
         @apply bg-background_800 text-white_util;
     }
 
-    header{
-        @apply border-b border-b-background_700;
-    }
-
     main{
         @apply py-16;
     }

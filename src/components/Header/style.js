@@ -1,24 +1,16 @@
+import styled from "styled-components"
 import tw from "twin.macro"
 
-export const Content = tw.div`
-    container
-    mx-auto
-    px-10
-    h-28
-    w-full
-    flex
-    justify-between
-    items-center
+export const Content = styled.div`
+    ${tw`container mx-auto px-10 h-24 border-b border-background_700 w-full flex justify-between items-center self-center`};
+    grid-area: header;
+  
 `;
 
-export const Profile = tw.div`
-    flex
-    items-center
-    gap-5
-    
+export const Profile = styled.div`
+    ${tw`flex items-center gap-5`};
 `;
 
-export const Logout = tw.div`
-    text-2xl
-    text-gray_100_util
+export const Logout = styled.div`
+    ${tw`text-2xl text-gray_100_util`};
 `;
