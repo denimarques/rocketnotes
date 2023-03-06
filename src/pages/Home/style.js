@@ -36,7 +36,7 @@ export const Menu = styled.ul`
 
 export const Search = styled.div`
     grid-area: search;
-    ${tw`p-10`};
+    ${tw`px-10 self-center`};
   
     > form > input {
       ${tw`w-full h-12 px-4 outline-none bg-background_900 rounded placeholder:text-sm placeholder:text-gray_300_util`};
@@ -50,5 +50,6 @@ export const NewNote = styled.div`
 
 export const Content = styled.div`
     grid-area: content;
-    background-color: red;
+    ${tw`px-10 overflow-y-auto scrollbar scrollbar-thumb-background_900 scrollbar-thin scrollbar-corner-rose-400`};
+    
 `;

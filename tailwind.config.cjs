@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const url = require("url");
 module.exports = {
     content: [
         "./index.html",
@@ -6,11 +7,14 @@ module.exports = {
         ".src/components/**/*.{ts,tsx}"
     ],
     theme: {
-        fontFamily:{
+        fontFamily: {
             "Slab": ['Roboto Slab', 'serif']
         },
         extend: {
-            colors:{
+            backgroundImage: {
+                "hero-pattern": "url('/src/assets/background.png')"
+            },
+            colors: {
                 background_900: "#232129",
                 background_800: "#312E38",
                 background_700: "#3E3B47",
@@ -25,5 +29,5 @@ module.exports = {
             }
         },
     },
-    plugins: [],
+    plugins: [require('tailwind-scrollbar')],
 }

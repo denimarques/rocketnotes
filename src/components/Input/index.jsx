@@ -1,6 +1,6 @@
 import { Content } from "./style";
 
-export default function Input({icon: Icon, ...rest}){
+export default function Index({icon: Icon, ...rest}){
     return(
         <Content>
             {Icon && <Icon />}

@@ -9,7 +9,7 @@ export const Base = styled.div`
   };
 
   h2{
-    ${tw`text-lg mt-20 mb-5`};
+    ${tw`text-lg my-14`};
   };
   
   a{

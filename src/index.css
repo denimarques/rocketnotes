@@ -12,7 +12,7 @@
     }
 
     body, input, button, textarea{
-        @apply font-Slab antialiased ;
+        @apply font-Slab antialiased;
     }
 
     cursor{
