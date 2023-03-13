@@ -2,7 +2,7 @@ import styled from "styled-components"
 import tw from "twin.macro"
 
 export const Content = styled.div`
-    ${tw`container mx-auto px-10 h-24 border-b border-background_700 w-full flex justify-between items-center self-center`};
+    ${tw`px-10 h-24 border-b border-background_700 w-full flex justify-between items-center self-center`};
     grid-area: header;
   
 `;

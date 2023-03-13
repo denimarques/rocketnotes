@@ -5,8 +5,8 @@ export const Content = tw.button`
     bg-orange_util
     text-background_800
     px-4
-    py-2
-    rounded-lg
+    py-3
+    rounded
     font-semibold
     mt-2
     

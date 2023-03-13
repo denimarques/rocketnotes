@@ -11,8 +11,6 @@ function Details() {
             <header>
                 <Header/>
             </header>
-
-
             <main>
                 <Container>
                     <ButtonText title="Excluir a nota"/>

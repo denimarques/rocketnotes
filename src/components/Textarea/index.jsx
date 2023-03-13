@@ -1,10 +1,10 @@
 import { Content } from "./style";
 
-export default function Input({icon: Icon, ...rest}){
+export default function Textarea({icon: Icon, ...rest}){
     return(
         <Content>
             {Icon && <Icon />}
-            <input {...rest}/>
+            <textarea {...rest}></textarea>
         </Content>
     )
 }

@@ -8,7 +8,7 @@ export default function Header(){
                 <img className="rounded-full w-16 h-16" src="https://github.com/denimarques.png" alt=""/>
 
                 <div className="grid">
-                    <span className="text-gray_100_util">Welcome</span>
+                    <span className="text-gray_100_util">Bem Vindo,</span>
                     <strong className="text-lg text-white_util">Deniul Marques</strong>
                 </div>
             </Profile>
