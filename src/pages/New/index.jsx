@@ -14,7 +14,7 @@ export default function New() {
             <Content>
                 <Container>
                     <h1>Criar nota</h1>
-                    <ButtonText title="Voltar"/>
+                    <a href="/"><ButtonText title="Voltar"/></a>
                 </Container>
                 <Form>
                     <Input placeholder="Titulo"/>

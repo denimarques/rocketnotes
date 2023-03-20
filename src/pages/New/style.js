@@ -10,7 +10,7 @@ export const Content = styled.div`
 `;
 
 export const Container = styled.div`
-    ${tw`flex justify-between`};
+    ${tw`flex justify-between items-center`};
   
     > h1{
           ${tw`text-2xl`};

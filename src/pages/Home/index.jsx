@@ -44,7 +44,7 @@ export default function Home() {
             </Content>
             <NewNote>
                 <FiPlus/>
-                <p>New nota</p>
+                <a href="/new">New nota</a>
             </NewNote>
         </Base>
     );
